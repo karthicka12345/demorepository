@@ -44,6 +44,7 @@ public class Login extends ReusableLibrary
 	 {
 		 System.out.println("launched");
 		 driver.get("https://rahulshettyacademy.com/client");
+		 System.out.println("updated username");
 	 }
 	 
 	 public String getmsg()

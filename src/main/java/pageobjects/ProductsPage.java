@@ -51,6 +51,7 @@ WebDriver driver;
 		 selectproduct(prodname).findElement(addtocartbtn).click();
 		 visibilityofele(toast);
 		 invisibilityofele(spinner);
+		 System.out.println("original person made changes");
 	}
 
 
