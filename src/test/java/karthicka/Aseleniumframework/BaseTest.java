@@ -84,6 +84,7 @@ public class BaseTest
 	@AfterMethod(alwaysRun=true)
 	public void teardown()
 	{
+		System.out.println("downloaded sucessfully");
 		driver.close();
 	}
 	
@@ -104,6 +105,8 @@ public class BaseTest
 		File file=new File(System.getProperty("user.dir") + "//reports//" + testcase + ".png");
 		FileUtils.copyFile(source, file);
 		return System.getProperty("user.dir") + "//reports//" + testcase + ".png";
+		
 	}
+	
 
 }
