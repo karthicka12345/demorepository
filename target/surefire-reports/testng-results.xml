@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-07T22:01:34 GMT-04:00" name="Suite" finished-at="2023-08-07T22:02:18 GMT-04:00" duration-ms="43894">
+    <groups>
+      <group name="errorhandling">
+        <method signature="ErrorvalidationTest.incorrectlogin()[pri:0, instance:karthicka.Aseleniumframework.ErrorvalidationTest@4470fbd6]" name="incorrectlogin" class="karthicka.Aseleniumframework.ErrorvalidationTest"/>
+      </group> <!-- errorhandling -->
+      <group name="purchase">
+        <method signature="standalonetest.maintest(java.util.HashMap)[pri:0, instance:karthicka.Aseleniumframework.standalonetest@79207381]" name="maintest" class="karthicka.Aseleniumframework.standalonetest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2023-08-07T22:01:34 GMT-04:00" name="errorvalidation" finished-at="2023-08-07T22:02:12 GMT-04:00" duration-ms="37693">
+      <class name="karthicka.Aseleniumframework.ErrorvalidationTest">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:karthicka.Aseleniumframework.ErrorvalidationTest@4470fbd6]" started-at="2023-08-07T22:01:34 GMT-04:00" name="launchapplication" finished-at="2023-08-07T22:01:43 GMT-04:00" duration-ms="8793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="incorrectlogin()[pri:0, instance:karthicka.Aseleniumframework.ErrorvalidationTest@4470fbd6]" started-at="2023-08-07T22:01:43 GMT-04:00" name="incorrectlogin" finished-at="2023-08-07T22:01:44 GMT-04:00" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectlogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:karthicka.Aseleniumframework.ErrorvalidationTest@4470fbd6]" started-at="2023-08-07T22:01:44 GMT-04:00" name="teardown" finished-at="2023-08-07T22:01:44 GMT-04:00" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:karthicka.Aseleniumframework.ErrorvalidationTest@4470fbd6]" started-at="2023-08-07T22:01:44 GMT-04:00" name="launchapplication" finished-at="2023-08-07T22:01:50 GMT-04:00" duration-ms="6735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="productmismatch()[pri:0, instance:karthicka.Aseleniumframework.ErrorvalidationTest@4470fbd6]" started-at="2023-08-07T22:01:50 GMT-04:00" name="productmismatch" finished-at="2023-08-07T22:02:12 GMT-04:00" duration-ms="21175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productmismatch -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:karthicka.Aseleniumframework.ErrorvalidationTest@4470fbd6]" started-at="2023-08-07T22:02:12 GMT-04:00" name="teardown" finished-at="2023-08-07T22:02:12 GMT-04:00" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- karthicka.Aseleniumframework.ErrorvalidationTest -->
+    </test> <!-- errorvalidation -->
+    <test started-at="2023-08-07T22:01:34 GMT-04:00" name="stabdalone" finished-at="2023-08-07T22:02:18 GMT-04:00" duration-ms="43894">
+      <class name="karthicka.Aseleniumframework.standalonetest">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:karthicka.Aseleniumframework.standalonetest@79207381]" started-at="2023-08-07T22:01:34 GMT-04:00" name="launchapplication" finished-at="2023-08-07T22:01:43 GMT-04:00" duration-ms="8506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="maintest(java.util.HashMap)[pri:0, instance:karthicka.Aseleniumframework.standalonetest@79207381]" started-at="2023-08-07T22:01:43 GMT-04:00" name="maintest" data-provider="getdata" finished-at="2023-08-07T22:01:56 GMT-04:00" duration-ms="13043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=July$123, product=ZARA COAT 3, email=karthickatest@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:karthicka.Aseleniumframework.standalonetest@79207381]" started-at="2023-08-07T22:01:56 GMT-04:00" name="teardown" finished-at="2023-08-07T22:01:56 GMT-04:00" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:karthicka.Aseleniumframework.standalonetest@79207381]" started-at="2023-08-07T22:01:56 GMT-04:00" name="launchapplication" finished-at="2023-08-07T22:02:00 GMT-04:00" duration-ms="4211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="maintest(java.util.HashMap)[pri:0, instance:karthicka.Aseleniumframework.standalonetest@79207381]" started-at="2023-08-07T22:02:00 GMT-04:00" name="maintest" data-provider="getdata" finished-at="2023-08-07T22:02:13 GMT-04:00" duration-ms="12936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Aug$1234, product=ZARA COAT 3, email=sathieshtest@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:karthicka.Aseleniumframework.standalonetest@79207381]" started-at="2023-08-07T22:02:13 GMT-04:00" name="teardown" finished-at="2023-08-07T22:02:13 GMT-04:00" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:karthicka.Aseleniumframework.standalonetest@79207381]" started-at="2023-08-07T22:02:13 GMT-04:00" name="launchapplication" finished-at="2023-08-07T22:02:17 GMT-04:00" duration-ms="3800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="orderhistory()[pri:0, instance:karthicka.Aseleniumframework.standalonetest@79207381]" started-at="2023-08-07T22:02:17 GMT-04:00" name="orderhistory" finished-at="2023-08-07T22:02:18 GMT-04:00" depends-on-methods="maintest()" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistory -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:karthicka.Aseleniumframework.standalonetest@79207381]" started-at="2023-08-07T22:02:18 GMT-04:00" name="teardown" finished-at="2023-08-07T22:02:18 GMT-04:00" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- karthicka.Aseleniumframework.standalonetest -->
+    </test> <!-- stabdalone -->
+  </suite> <!-- Suite -->
+</testng-results>
